@@ -9,4 +9,4 @@ def towerofhanoi(n, source, helper, destination):
 
 
 n = int(input())
-towerofhanoi(n, "S", "H", "D")
+towerofhanoi(n, "Sorce", "Help", "Destination")
