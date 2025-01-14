@@ -15,8 +15,8 @@ class credit_card:
     def Get_Account(self):
         print(self.account)
 
-    def Get_Balance(self, bal):
-        self.balance = bal
+    def Get_Balance(self):
+        # self.balance = bal
         print(self.balance)
 
     def Get_Limit(self):
@@ -34,9 +34,9 @@ class credit_card:
 # bal = int(input("enter the balance: "))
 price = int(input("enter the price: "))
 amount = int(input("enter the amount: "))
-cc = credit_card("John Wick", "Bank Of Mafia","SAVINGS" "1000")
+cc = credit_card("John Wick", "Bank Of Mafia", "SAVINGS" "1000", 90)
 cc.Get_Account()
-cc.Get_Balance(bal)
+cc.Get_Balance()
 cc.Get_Customer()
 cc.Get_Limit()
 cc.Get_Bank()
