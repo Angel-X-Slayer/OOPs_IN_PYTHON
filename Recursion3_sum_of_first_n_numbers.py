@@ -9,7 +9,9 @@ def summetion(i, n, sum):
 
 
 n = int(input("enter the number: "))
-k = summetion(0, n, 0)
+index=0
+sum=0
+k = summetion(index, n, sum)
 print(k)
 
 
@@ -24,4 +26,6 @@ def summetion(i, n, sum):
 
 
 n = int(input("enter the number: "))
-summetion(0, n, 0)
+index = 0
+sum = 0
+summetion(index, n, sum)
